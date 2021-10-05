@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+     <!-- responsive image -->
+       <style>
+         /* Google font */
+         *{
+           margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+         }
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+        </style>
+
+    <title>Rafid's website</title>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Rafid Travel Agency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Book services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Career with us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <!-- navbar end -->
+
+          <!-- carasoul start -->
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/im1.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Bandarban</h3>
+                  <p>We had such a great time on the hills of Bandarban</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="images/im2.jpg" alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Cox's Bazar</h3>
+                  <p>Cox's Bazar, the largest sea beach in the world</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="images/im3.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Saint Martin</h3>
+                  <p>An amazing place of natural beauty</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- carasoul end -->
+
+    </header>
+    
+    <!-- About me start -->
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center pt-5">About Me</h1>
+            <hr class="w-25 mx-auto pt-3">
+            <!-- bs4 grid -->
+            <div class="row mb-5">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="images/200.jpg" class="img-fluid">
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <h1>Who am I?</h1>
+                  <hr>
+                  <p>I am Mutasim Rafid, the CEO of Rafid Travel Agency. My company gives customers best services within the minimum cost. Our employees are humble and polite. They will always ensure that you are safe and satisfied. Additionally, we give highest discounts on different services. We hope that you will be happy and satisfied with our services. Personally, I am Computer Science graduate from Brac University, a competitive coder and web developer. In my coding career, I achirved 5 star at HackerRank and 1391 in Code Forces.
+                     Additionally, I also love travelling different places.</p>
+                  <button class="btn bg-primary text-white">Wanna know me?</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- About me end -->
+    <!-- services start -->
+    <section>
+      <div class="container">
+        <h1 class="text-center pt-5">Services</h1>
+        <hr class="w-25 mx-auto pt-3">
+        
+        <!-- Grid and card -->
+        <div class="row text-center mb-5">
+          <div class="col-lg-4 col-md-4 col-12">
+            <!-- card start -->
+            <div class="card" style="">
+              <img class="card-img-top" src="images/s1.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Airlines ticket booking</h4>
+                <p class="card-text">With upto 20% discount</p>
+                <a href="#" class="btn btn-primary">Book Tickets</a>
+              </div>
+            </div>
+
+          </div>
+          <!-- --- -->
+          <div class="col-lg-4 col-md-4 col-12">
+            <!-- card start -->
+            <div class="card" style="">
+              <img class="card-img-top" src="images/s3.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Hotel room booking</h4>
+                <p class="card-text">With upto 25% discount</p>
+                <a href="#" class="btn btn-primary">Book Hotels</a>
+              </div>
+            </div>
+
+          </div>
+          <!-- --- -->
+          <div class="col-lg-4 col-md-4 col-12">
+            <!-- card start -->
+            <div class="card" style="">
+              <img class="card-img-top" src="images/s2.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Local tour guides</h4>
+                <p class="card-text">Low hourly rate</p>
+                <a href="#" class="btn btn-primary">Book local guide</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </section>
+    <!-- services end -->
+
+    <!-- phone number start -->
+    <section class="bg-primary">
+      <article class="py-5 text-center text-white">
+        <div>
+          <h3 class="display-4">+88-01521438740</h3>
+          <p>If you want best service call us now</p>
+          <button class="btn btn-warning">Call us now</button>
+
+        </div>
+      </article>
+    </section>
+    <!-- phone number end -->
+    <!-- gallery start -->
+    <section>
+      <div class="container">
+        <h1 class="text-center pt-5">Gallery</h1>
+        <hr class="w-25 mx-auto pt-3">
+        <div class="row">
+        <!-- Grid start -->
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+           <img src="images/g8.jpg" class="img-fluid">
+          </div>
+
+          <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g2.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g3.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g4.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g5.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g6.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g7.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g1.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g9.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g10.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g11.jpg" class="img-fluid">
+           </div>
+
+           <div class="col-lg-4 col-md-2 col-12 mb-4">
+            <img src="images/g12.jpg" class="img-fluid">
+           </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- gallery end -->
+
+    <!-- want to join start -->
+
+    <section class="bg-primary">
+      <article class="py-5 ">
+        <div class="text-center">
+          <h3 class="display-4 text-white" >Want to join</h3>
+          <p class="text text-white">Be a part of Rafid Travel Agency</p>
+          <button class="btn btn-warning "data-toggle="modal" data-target="#myModal">Join Now</button>
+
+        </div>
+
+        <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <!-- modal body end -->
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+      </article>
+    </section>
+
+    <!-- want to join end -->
+
+    <!-- contact us start -->
+    <section>
+      <div class="container mb-5 mt-5">
+        <h1 class="text-center pt-5">Contact Us</h1>
+        <hr class="w-25 mx-auto pt-3">
+
+        <div class="w-50 mx-auto">
+          <!-- form -->
+          <div class="form-group">
+            <label for="text">Your name</label>
+            <input type="text" class="form-control" placeholder="Enter your name" id="text">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" placeholder="Enter your email" id="email">
+          </div>
+          <div class="form-group">
+            <label for="number">Mobile Number:</label>
+            <input type="number" class="form-control" placeholder="Enter your mobile number" id="number">
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>  
+    </section>
+    <!-- contact us end -->
+    <!-- footer start -->
+    <footer>
+      <p class="text-center text-white bg-dark m-auto">  @Copyright &nbsp   MutasimRafid  &nbsp 2021</p>
+    </footer>
+
+
+ 
+
+    <!-- bootstrap codes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
